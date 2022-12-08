@@ -1,0 +1,260 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/*CSS Variable */
+:root{
+    --navbar-height:59px;
+}
+
+/*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #b7c4b700;
+    height: 40px;
+    padding: 5px;
+    opacity: 0.89;
+  }
+    
+
+/*dought*/
+#navbar::before{
+    content: " ";
+    
+    position: absolute;
+   top: 0px;
+   left: 0px;
+    height: 40px;
+     padding: 5px;
+}  
+
+
+   
+   
+
+
+/*Navigation Bar--Logo and image*/
+#logo{
+   margin: 1px 3px;
+   
+}
+#logo img{
+    height: 61px;
+    margin: 34px 45px;
+    position: relative;
+   top: 1px;
+}
+
+/*Navigation Bar -- List Styling */
+#Navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+ul{
+    display: flex;
+    width: 100vw;
+   
+    position: relative;
+    top: 0px;
+    justify-content: space-evenly;
+    opacity: 0.89;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Aboreto', cursive;
+    
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(247, 244, 244);
+    background-color: rgb(4, 4, 5);
+}
+
+/*Home section */
+
+#home{
+    height: 332px;
+    display: flex;
+    flex-direction:column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+}
+#home> p{
+    font-family: 'Aboreto', cursive;
+    color: white;
+}
+
+#home::before{
+    content: " ";
+    position: absolute;
+    background: url('../Resource_/img/top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    
+    width: 100%;
+    z-index: -1;
+    padding: 219px 0 165px;
+    
+}
+/*Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid red;
+    padding: 30px;
+    margin: 3px 20px;
+    border-radius: 28px;
+    background-color:#f9f9f9;
+    
+}
+#services .box img{
+    height: 156px;
+    margin: auto;
+    display: block;
+    
+}
+#services .box p{
+    font-family: 'Source Serif Pro', serif
+    
+}
+/*Client Section */
+#client-Section{
+    height: 334px;
+
+}
+#client-Section::before{
+    content: "";
+    position: absolute;
+    background: url("../Resource_/img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+#clients{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 50px ;
+    margin: 20px;
+    
+}
+#clients img{
+    height: 124px;
+    margin: 15px;
+}
+/*Contact Section*/
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../Resource_/img/contact.jpg');
+    background-size: cover;
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input{
+    width: 100%;
+
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#conact-box form{
+    width: 40%;
+}
+
+#conact-box label{
+    font-size: 1.3rem;
+    font-family: 'Source Serif Pro', serif
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/*Utility Classes*/
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Rakkas', cursive;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:#34a52a; 
+    border-radius: 10px;
+    color: white;
+    margin: 17px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    ;
+}
+.h-secondary{
+    font-family: 'Rakkas', cursive;
+    font-size: 1.6rem;
+
+}

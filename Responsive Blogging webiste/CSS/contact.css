@@ -1,0 +1,18 @@
+.contact{
+    background: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)),url('../image/From.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-family: var(--font2);
+    padding: 20px 10px;
+    margin-top: 10px ;
+    
+}
+.contact-form{
+    display: flex;
+    
+   
+    flex-direction: column;
+
+}

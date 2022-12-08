@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@500&display=swap");
+:root {
+    --main-bg-color:brown;
+    --font1:'Libre Baskerville', serif;
+    --font2:'Libre Baskerville', serif;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.btn {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-input {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid;
+    color: black;
+    border-radius: 3px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+.form-box input ,textarea{
+  width: 52vw;
+  padding: 10px 6px;
+  margin: 7px;
+ font-family: var(--font1);
+ color: black;
+}
